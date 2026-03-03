@@ -1,9 +1,10 @@
 import {View, Text, Image, StyleSheet} from 'react-native'
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 export default function Header() {
     return (
         <View style={styles.container }>
-            <Image source={require('../../assets/logotipo.png')} style={styles.logotipo}/>
+            <FontAwesome name="users" size={24} color="orange" />
             <Text style={styles.logotipotext}>Lego?</Text>
         </View>
     )

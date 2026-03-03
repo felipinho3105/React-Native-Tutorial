@@ -1,15 +1,15 @@
 import { View, Text, Image, StyleSheet } from "react-native";
 
-export default function Card() {
+export default function Card({name, email, avatar}) {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../../assets/profilephoto/foto1.jpg")}
+        source={avatar}
         style={styles.img}
       />
       <View>
-        <Text style={styles.name}>Júlio dos Santos</Text>
-        <Text style={styles.email}>juliodossantos123@gmail.com</Text>
+        <Text style={styles.name}>{name}</Text>
+        <Text style={styles.email}>{email}</Text>
       </View>
     </View>
   );

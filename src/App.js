@@ -8,9 +8,21 @@ export default function App() {
     <>
       <View style={styles.tela}>
         <Header />
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card
+          avatar={require('../assets/profilephoto/foto1.jpg')}
+          name={"joao"}
+          email={"joaosilva@gmail.com"}
+        />
+        <Card
+          avatar={require('../assets/profilephoto/foto2.jpg')}
+          name={"felipe"}
+          email={"felipesilva@gmail.com"}
+        />
+        <Card
+          avatar={require('../assets/profilephoto/foto3.jpg')}
+          name={"lucas"}
+          email={"lucassilva@gmail.com"}
+        />
         <StatusBar style="auto" />
       </View>
     </>
