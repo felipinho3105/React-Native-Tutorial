@@ -18,6 +18,16 @@
     importar o StyleSheet e usar a função create para estilizar
 9 - O estilo do React Native e do CSS é igual? Tem todas as propriedades? 
     Não, o native é muito inspirado no CSS, então é muito parecido, mas algumas funções, que não faria sentido ter no desenvolvimento mobile, não existem no native
+10 - O que são hooks?
+    São funções especiais para React
+11 - Quais são os principais?
+    useState e useEffect, que fazem parte do core, mas podem ser de várias bibliotecas diferentes e também pode ser criadas pelo desenvolvedor, todos começam com a palavra "use" e só podem ser usado no "toplevel"
+12 - 
+13 - Em quais pacotes encontro um componente de Imagem? Qual melhor para usarmos atualmente?
+    React native e expo-image. O melhor é expo-Image
+14 - o que são propriedades de componente?
+    São características para reutilizarmos naquele componente
+
 
 ## comandos uteis
 
